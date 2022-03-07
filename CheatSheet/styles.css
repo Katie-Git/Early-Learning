@@ -1,0 +1,105 @@
+html body {
+      background-color: antiquewhite;
+      
+      
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Didact';
+    src: url('fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('fonts/SpaceMono-Regular.ttf') format ('truetype');
+}
+
+
+li {
+    
+    position: relative;
+    display: inline-block;
+    max-width: 25%;
+    min-width: 12%;
+    Height: 55px;
+    
+
+    
+    }
+
+    li button {
+        font-family: 'Didact';
+        font-size: large;
+        border-radius:50px;
+        padding: 5%;
+        background-color: plum;
+        
+    }
+
+    a {
+      color: white;  
+    }
+
+table {
+    position:relative;
+    left: 20px;
+    font-family: 'Didact';
+    
+}
+
+
+tr:nth-child(even) {
+    background-color: plum ;
+}
+tr:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+h1, h2, tbody {
+    
+    color: black;
+    font-family: 'Didact';
+}
+
+h1 {
+    font-weight: 900;
+    position:relative;
+    left: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+thead  {
+    
+    color: white;
+    font-family: 'Didact';
+    text-transform:uppercase;
+   
+}
+thead td {
+    background-color: plum;
+}
+.headings {
+    color: navy;
+    text-transform:uppercase;
+}
+
+td {
+    border: 1px solid black;
+    padding:.5em;
+    
+
+}
+
+
+.code {
+    font-family: SpaceMono;
+}
